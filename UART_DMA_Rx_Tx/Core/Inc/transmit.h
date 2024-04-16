@@ -9,5 +9,5 @@
 #define INC_TRANSMIT_H_
 
 void SendMessage(char *Input);
-
+//
 #endif /* INC_TRANSMIT_H_ */
