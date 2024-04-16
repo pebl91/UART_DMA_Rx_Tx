@@ -18,4 +18,3 @@ void SendMessage(char *Input)
     Length = sprintf((char *)MessageBuffer, "%s", Input); // Format the input string into the message buffer
     HAL_UART_Transmit_DMA(&hlpuart1, MessageBuffer, Length); // Transmit the formatted message via UART using DMA
 }
-//
