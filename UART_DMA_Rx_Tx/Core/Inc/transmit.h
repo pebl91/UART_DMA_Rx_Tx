@@ -8,6 +8,6 @@
 #ifndef INC_TRANSMIT_H_
 #define INC_TRANSMIT_H_
 
-void Message(uint8_t input[32]);
+void SendMessage(char *Input);
 
 #endif /* INC_TRANSMIT_H_ */
